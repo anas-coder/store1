@@ -2475,7 +2475,15 @@ body {
   overflow-x: auto;   /* يخليها تتمرج يمين وشمال */
   scroll-behavior: smooth; /* يخلي الحركة ناعمة */
   -webkit-overflow-scrolling: touch; /* يشتغل كويس على الموبايل */
+    scrollbar-width: none; /* يخفي الشريط في فايرفوكس */
 }
+
+
+.slider-list::-webkit-scrollbar {
+  display: none; /* يخفي الشريط في كروم وسفاري */
+}
+
+
 
 
 .all-sliders {
