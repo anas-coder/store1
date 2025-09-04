@@ -79,6 +79,28 @@ menuToggle.addEventListener('keydown', (e) => {
 });
 
 
+
+document.querySelectorAll(".dropdown > a").forEach(link => {
+  link.addEventListener("click", function (e) {
+    e.preventDefault();
+    const submenu = this.nextElementSibling;
+
+    // نقفل أي دروب داون مفتوح غير اللي ضغطنا عليه
+    document.querySelectorAll(".dropdown-menu").forEach(menu => {
+      if (menu !== submenu) menu.style.display = "none";
+    });
+
+    // نفتح / نقفل اللي ضغطنا عليه
+    if (submenu.style.display === "block") {
+      submenu.style.display = "none";
+    } else {
+      submenu.style.display = "block";
+    }
+  });
+});
+
+
+
 let btn = document.getElementById("btn")
 
 window.onscroll = function(){
