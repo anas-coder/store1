@@ -2469,3 +2469,18 @@ body {
   transform: scale(1.1); /* تكبر شوية عند المرور عليها */
 }
 
+
+.slider-list {
+  display: flex;
+  overflow-x: auto;   /* يخليها تتمرج يمين وشمال */
+  scroll-behavior: smooth; /* يخلي الحركة ناعمة */
+  -webkit-overflow-scrolling: touch; /* يشتغل كويس على الموبايل */
+}
+
+
+.all-sliders {
+  display: flex;
+  overflow-x: auto;   /* يخليها تتمرج يمين وشمال */
+  scroll-behavior: smooth; /* يخلي الحركة ناعمة */
+  -webkit-overflow-scrolling: touch; /* يشتغل كويس على الموبايل */
+}
