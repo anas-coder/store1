@@ -2534,7 +2534,7 @@ body {
 
 /* عند الضغط (active) تتحول لـ X */
 .menu-btn.active .bar:nth-child(1) {
-  transform: rotate(45deg) translate(5px, 5px);
+  transform: rotate(45deg) translate(6px, 6px);
 }
 
 .menu-btn.active .bar:nth-child(2) {
@@ -2547,3 +2547,55 @@ body {
 
 
 
+
+
+#menu li {
+  position: relative;
+}
+
+#menu > li > a {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+#menu > li > a:hover {
+  background: #28a745; /* اخضر */
+  color: #fff;
+}
+
+/* القائمة المنسدلة */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0; /* عشان القائمة بالعربي */
+  background: #fff;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-width: 180px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  border-radius: 6px;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dropdown-menu li a:hover {
+  background: #28a745; /* اخضر */
+  color: #fff;
+}
+
+/* اظهار القائمة عند المرور */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}

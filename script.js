@@ -61,21 +61,23 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+const menuToggle = document.getElementById('menu-toggle');
+const menu = document.getElementById('menu');
 
-  const menuToggle = document.getElementById('menu-toggle');
-    const menu = document.getElementById('menu');
+menuToggle.addEventListener('click', () => {
+    menu.classList.toggle('show');
+    menuToggle.classList.toggle('active'); // نضيف كلاس يغير الشكل
+});
 
-    menuToggle.addEventListener('click', () => {
+// تحسين قابلية الوصول
+menuToggle.addEventListener('keydown', (e) => {
+    if(e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
         menu.classList.toggle('show');
-    });
+        menuToggle.classList.toggle('active');
+    }
+});
 
-    // تحسين قابلية الوصول: إظهار القائمة عند الضغط على زر Enter على الأيقونة
-    menuToggle.addEventListener('keydown', (e) => {
-        if(e.key === 'Enter' || e.key === ' ') {
-            e.preventDefault();
-            menu.classList.toggle('show');
-        }
-    });
 
 let btn = document.getElementById("btn")
 
@@ -94,7 +96,5 @@ window.onscroll = function(){
       behavior : "smooth"
     })
    }
-
-
 
    

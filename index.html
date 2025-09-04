@@ -13,21 +13,50 @@
     <div class="logo">البيت ستور</div>
 
     <nav>
-        <ul id="menu">
-            <li><a href="#">الصفحه الرئيسيه</a></li>
-            <li><a href="#">اجهزه كهربائية مستعمله</a></li>
-            <li><a href="#">اجهزه كهربائية جديدة</a></li>
-            <li><a href="#">عربة التسوق</a></li>
-            <li><a href="#">طلباتي</a></li>
-            <li><a href="#">اتصل بنا</a></li>
-        </ul>
-    </nav>
+  <ul id="menu">
+    <li><a href="#">الصفحه الرئيسيه</a></li>
 
-    <div class="menu-toggle" id="menu-toggle" aria-label="قائمة التنقل">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
+    <!-- اجهزه كهربائية مستعمله -->
+    <li class="dropdown">
+      <a href="#">اجهزه كهربائية مستعمله</a>
+      <ul class="dropdown-menu">
+        <li><a href="#">تكييفات مستعمله</a></li>
+        <li><a href="#">مراوح مستعمله</a></li>
+        <li><a href="#">افران مستعمله</a></li>
+        <li><a href="#">غسالات مستعمله</a></li>
+        <li><a href="#">ثلاجات مستعمله</a></li>
+        <li><a href="#">بوتجازات مستعمله</a></li>
+        <li><a href="#">فرزر مستعمل</a></li>
+        <li><a href="#">تلفزيونات مستعمله</a></li>
+      </ul>
+    </li>
+
+    <!-- اجهزه كهربائية جديدة -->
+    <li class="dropdown">
+      <a href="#">اجهزه كهربائية جديدة</a>
+      <ul class="dropdown-menu">
+        <li><a href="#">تكييفات</a></li>
+        <li><a href="#">مراوح</a></li>
+        <li><a href="#">افران</a></li>
+        <li><a href="#">غسالات</a></li>
+        <li><a href="#">ثلاجات</a></li>
+        <li><a href="#">بوتجازات</a></li>
+        <li><a href="#">فرزر</a></li>
+        <li><a href="#">تلفزيونات</a></li>
+      </ul>
+    </li>
+
+    <li><a href="#">عربة التسوق</a></li>
+    <li><a href="#">طلباتي</a></li>
+    <li><a href="#">اتصل بنا</a></li>
+  </ul>
+</nav>
+
+<button id="menu-toggle" class="menu-btn" aria-label="Toggle menu">
+  <span class="bar"></span>
+  <span class="bar"></span>
+  <span class="bar"></span>
+</button>
 </header>
 
 <section class="hero" role="banner" aria-label="قسم الترويج">
