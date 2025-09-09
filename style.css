@@ -3864,7 +3864,7 @@ top: 912.1px;
 
 
 
-@media (max-width: 745px) {
+@media (max-width: 780px) {
   #btn {
          top: 750.8px;
   }
@@ -3911,3 +3911,113 @@ top: 912.1px;
   }
 
 }
+
+
+
+ @media screen and (max-width: 1144px) {
+      #bottom-bar {
+        display: block;
+        border-top-left-radius: 20px; /* أعد الـ border-radius للجزء العلوي فقط */
+        border-top-right-radius: 20px; /* أعد الـ border-radius للجزء العلوي فقط */
+      }
+       #btn {
+        bottom: 80px; /* ارفع زر العودة للأعلى ليتجنب الشريط السفلي */
+      }
+        .whatsapp {
+          bottom: 80px; /* ارفع زر الواتساب ليتجنب الشريط السفلي */
+      }
+    }
+
+
+
+
+        
+        #bottom-bar {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background-color: #fff;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+            border-top: 1px solid #e0e0e0;
+            z-index: 1000;
+            padding: 8px 0;
+        }
+
+        #bottom-bar nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            max-width: 100%;
+        }
+
+        .icon-button {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+            padding: 5px 0;
+            color: #666;
+            font-size: 11px;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        .icon-button svg {
+            width: 22px;
+            height: 22px;
+            margin-bottom: 4px;
+            fill: #666;
+            transition: fill 0.3s;
+        }
+
+        .icon-button.active,
+        .icon-button:hover {
+            color: #00b050;
+        }
+
+        .icon-button.active svg,
+        .icon-button:hover svg {
+            fill: #00b050;
+        }
+
+        /* إظهار الشريط السفلي فقط في الشاشات الصغيرة */
+        @media screen and (max-width: 1144px) {
+            #bottom-bar {
+                display: block;
+            }
+            
+            /* تعديل موقع أزرار الواتساب والعودة للأعلى */
+            .whatsapp, #btn {
+                bottom: 70px !important;
+            }
+        }
+
+        /* تحسينات للشاشات الصغيرة جدًا */
+        @media screen and (max-width: 480px) {
+            .icon-button {
+                font-size: 10px;
+            }
+            
+            .icon-button svg {
+                width: 20px;
+                height: 20px;
+            }
+            
+            #bottom-bar {
+                padding: 6px 0;
+            }
+        }
+
+        @media screen and (max-width: 360px) {
+            .icon-button {
+                font-size: 9px;
+            }
+            
+            .icon-button svg {
+                width: 18px;
+                height: 18px;
+            }
+        }
