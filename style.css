@@ -3861,3 +3861,53 @@ top: 912.1px;
     margin-right: 98px;
   }
 }
+
+
+
+@media (max-width: 745px) {
+  #btn {
+         top: 750.8px;
+  }
+
+  #bottom-bar {
+           top: 744.1px;
+  }
+
+  .whatsapp {
+        top: 750.8px;
+  }
+}
+
+
+
+
+
+@media (max-width: 1144px) {
+  header {
+         top: -19px;
+             padding: 0px 20px;
+  }
+
+  .menu-btn {
+          top: 45px;
+  }
+
+  .hero {
+    
+          top: -20px;
+  }
+}
+
+
+
+
+@media (max-width: 522px) {
+  header {
+             padding: 10px 20px;
+  }
+
+  .menu-btn {
+          top: 45px;
+  }
+
+}
