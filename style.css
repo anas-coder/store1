@@ -2979,7 +2979,13 @@ nav ul li a:hover {
     @media screen and (max-width: 1144px) {
       #bottom-bar {
         display: block;
-              top: 856.1px;
+              top: 826.1px;
+      }
+       #btn {
+        bottom: 30px;
+      }
+        .whatsapp {
+    bottom: 30px;
       }
     }
 
