@@ -3420,11 +3420,11 @@ nav ul li a:hover {
 
 @media (max-width: 780px) {
   #btn {
-         top: 850.8px;
+            top: 800px;
   }
 
   .whatsapp {
-        top: 850.8px;
+         top: 800px;
   }
 }
 
@@ -3545,4 +3545,38 @@ nav ul li a:hover {
         width: 18px;
         height: 18px;
       }
+
+      #btn {
+            bottom: 85px;
+  }
+
+  .whatsapp {
+          bottom: 85px;
+  }
+    }
+
+
+
+
+
+
+
+
+    @media screen and (max-width: 1144px) {
+
+      #btn {
+              bottom: 160px;
+  }
+
+  .whatsapp {
+            bottom: 160px;
+  }
+
+
+
+   #bottom-bar {
+          bottom: 81px;
+
+  }
+
     }
