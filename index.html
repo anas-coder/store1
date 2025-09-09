@@ -10,495 +10,514 @@
 <body>
   
 <header>
-    <div class="logo">البيت ستور</div>
+   <img class="logo" src="img/logo.png" alt="">
+
+    <!-- مربع البحث الجديد في الهيدر -->
+    <div class="search-container-header">
+        <input type="text" id="search-input-header" placeholder="بحث عن منتجات..." aria-label="حقل البحث في الهيدر" />
+        <div class="search-icon-header" role="button" tabindex="0" aria-label="بحث">
+            <svg viewBox="0 0 24 24" >
+                <path d="M21.71 20.29l-3.388-3.388a7.5 7.5 0 1 0-1.423 1.423l3.388 3.388a1 1 0 0 0 1.423-1.423zM10 16a6 6 0 1 1 0-12 6 6 0 0 1 0 12z"/>
+            </svg>
+        </div>
+        <div id="search-results" class="search-results"></div>
+    </div>
 
     <nav>
-  <ul id="menu">
-    <li><a href="#">الصفحه الرئيسيه</a></li>
+        <ul id="menu">
+            <li><a href="#">الصفحه الرئيسيه</a></li>
 
-    <!-- اجهزه كهربائية مستعمله -->
-    <li class="dropdown">
-      <a href="#">اجهزه كهربائية مستعمله</a>
-      <ul class="dropdown-menu">
-        <li><a href="#">تكييفات مستعمله</a></li>
-        <li><a href="#">مراوح مستعمله</a></li>
-        <li><a href="#">افران مستعمله</a></li>
-        <li><a href="#">غسالات مستعمله</a></li>
-        <li><a href="#">ثلاجات مستعمله</a></li>
-        <li><a href="#">بوتجازات مستعمله</a></li>
-        <li><a href="#">فرزر مستعمل</a></li>
-        <li><a href="#">تلفزيونات مستعمله</a></li>
-      </ul>
-    </li>
+            <!-- اجهزه كهربائية مستعمله -->
+            <li class="dropdown">
+                <a href="#">اجهزه كهربائية مستعمله</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">تكييفات مستعمله</a></li>
+                    <li><a href="#">مراوح مستعمله</a></li>
+                    <li><a href="#">افران مستعمله</a></li>
+                    <li><a href="#">غسالات مستعمله</a></li>
+                    <li><a href="#">ثلاجات مستعمله</a></li>
+                    <li><a href="#">بوتجازات مستعمله</a></li>
+                    <li><a href="#">فرزر مستعمل</a></li>
+                    <li><a href="#">تلفزيونات مستعمله</a></li>
+                </ul>
+            </li>
 
-    <!-- اجهزه كهربائية جديدة -->
-    <li class="dropdown">
-      <a href="#">اجهزه كهربائية جديدة</a>
-      <ul class="dropdown-menu">
-        <li><a href="#">تكييفات</a></li>
-        <li><a href="#">مراوح</a></li>
-        <li><a href="#">افران</a></li>
-        <li><a href="#">غسالات</a></li>
-        <li><a href="#">ثلاجات</a></li>
-        <li><a href="#">بوتجازات</a></li>
-        <li><a href="#">فرزر</a></li>
-        <li><a href="#">تلفزيونات</a></li>
-      </ul>
-    </li>
+            <!-- اجهزه كهربائية جديدة -->
+            <li class="dropdown">
+                <a href="#">اجهزه كهربائية جديدة</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">تكييفات</a></li>
+                    <li><a href="#">مراوح</a></li>
+                    <li><a href="#">افران</a></li>
+                    <li><a href="#">غسالات</a></li>
+                    <li><a href="#">ثلاجات</a></li>
+                    <li><a href="#">بوتجازات</a></li>
+                    <li><a href="#">فرزر</a></li>
+                    <li><a href="#">تلفزيونات</a></li>
+                </ul>
+            </li>
 
-    <li><a href="#">عربة التسوق</a></li>
-    <li><a href="#">طلباتي</a></li>
-    <li><a href="#">اتصل بنا</a></li>
-  </ul>
-</nav>
+            <li><a href="#">عربة التسوق</a></li>
+            <li><a href="#">طلباتي</a></li>
+            <li><a href="#">اتصل بنا</a></li>
+        </ul>
+    </nav>
 
-<button id="menu-toggle" class="menu-btn" aria-label="Toggle menu">
-  <span class="bar"></span>
-  <span class="bar"></span>
-  <span class="bar"></span>
-</button>
+    <button id="menu-toggle" class="menu-btn" aria-label="Toggle menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </button>
 </header>
+
+
+
+
 
 <section class="hero" role="banner" aria-label="قسم الترويج">
     <div class="hero-content">
         <h1>اشترى دلوقتي من عندنا وتمتع بجودة مضمونة وأسعار مميزة. تناسب ميزانيتك وتوفرلك راحة البال.</h1>
-        <button type="button">تسوق الان</button>
-
-        <div class="search-box">
-            <input type="text" placeholder="بحث.." aria-label="حقل البحث" />
-            <div class="search-icon" role="button" tabindex="0" aria-label="بحث">
-                <svg viewBox="0 0 24 24" >
-                    <path d="M21.71 20.29l-3.388-3.388a7.5 7.5 0 1 0-1.423 1.423l3.388 3.388a1 1 0 0 0 1.423-1.423zM10 16a6 6 0 1 1 0-12 6 6 0 0 1 0 12z"/>
-                </svg>
-                 
-            </div>
-        </div>
+        <a href="#product"><button  type="button">تسوق الان</button></a>
     </div>
-     <button id="btn" style="display: none;"><svg class="svgIcon" viewBox="0 0 384 512">
+     
+</section>
+
+
+<div>
+    <button id="btn" style="display: none;"><svg class="svgIcon" viewBox="0 0 384 512">
         <path
           d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
         ></path>
       </svg></button>
-      <div>
       <a href="https://api.whatsapp.com/send?phone=+201271109594&text= اهلا محتاج استفسر عن حاجة."target="_blank"class="whatsapp">
    <img src="img/icon_Whtsapp.png" alt="واتساب">
 </a>
-
-      </div>
-</section>
-
-
-
-
-    <section>
- <h2 style="text-align: center;padding-top: 80px;margin-bottom: -72px;" class="section-title"> اجهزه كهربائية جديدة</h2>
-<div style="  top: 90px;" class="slider-container">
-   
-  <button style="  margin-top: -20px;" class="slider-nav next" aria-label="السابق">
-    &#10094;
-  </button>
-  
-  <ul class="slider-list">
-    <li class="slider-item">
-      <div class="image-wrapper">
-        <img style="margin-top: -3px;max-width: 414%;max-height: 338%;" src="img/2.png" alt="تكييفات">
-      </div>
-      <p class="item-label">تكييفات <br>جديدة </p>
-    </li>
-    <li class="slider-item">
-      <div class="image-wrapper">
-        <img style="margin-top: 8px;max-width: 427%;max-height: 336%;" src="img/3.png" alt="مراوح">
-      </div>
-      <p class="item-label"> مراوح<br>جديدة</p>
-    </li>
-    <li class="slider-item">
-      <div class="image-wrapper">
-        <img style="margin-top: -11px;max-width: 414%; max-height: 335%;" src="img/4.png" alt="افران">
-      </div>
-      <p class="item-label">افران<br> جديدة</p>
-    </li>
-    <li class="slider-item">
-      <div class="image-wrapper">
-        <img style="margin-top: 29px;max-width: 414%;max-height: 340%;" src="img/5.png" alt="بوتجازات">
-      </div>
-      <p class="item-label">بوتجازات<br> جديدة</p>
-    </li>
-    <li class="slider-item">
-      <div class="image-wrapper">
-        <img style="margin-top: 8px;max-width: 414%;max-height: 337%;" src="img/6.png" alt="ثلاجات">
-      </div>
-      <p class="item-label">ثلاجات <br> جديدة </p>
-    </li>
-    <li class="slider-item">
-      <div class="image-wrapper">
-        <img style="margin-top: 10px;max-width: 414%;max-height: 287%;" src="img/7.png" alt="غسالات">
-      </div>
-      <p class="item-label">غسالات<br>  جديدة</p>
-    </li>
-    <li class="slider-item">
-      <div class="image-wrapper">
-        <img style="margin-top: 10px;max-width: 414%;max-height: 279%;" src="img/9.png" alt="فريزر">
-      </div>
-      <p class="item-label">فريزر<br> جديدة </p>
-    </li>
-    <li class="slider-item">
-      <div class="image-wrapper">
-        <img style="margin-top: -8px;max-width: 421%;max-height: 315%;" src="img/10-0.png" alt="تلفزيونات">
-      </div>
-      <p class="item-label">تلفزيونات<br>  جديدة</p>
-    </li>
-  </ul>
-  
-  <button style="  margin-top: -20px;" class="slider-nav prev" aria-label="التالي">
-    &#10095;
-  </button>
 </div>
+
+
+
+<div id="bottom-bar" role="navigation" aria-label="شريط التنقل السفلي">
+    <nav>
+      <div class="icon-button" data-label="الصفحه الرئيسيه" tabindex="0" aria-pressed="false" role="button">
+        <!-- Home icon from https://heroicons.com (solid) -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+          <path d="M10.707 1.293a1 1 0 00-1.414 0L2 8.586V18a2 2 0 002 2h4a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1h4a2 2 0 002-2V8.586l-7.293-7.293z" />
+        </svg>
+        <span>الصفحه الرئيسيه</span>
+      </div>
+      <div class="icon-button" data-label="عربة التسوق" tabindex="0" aria-pressed="false" role="button">
+        <!-- Shopping cart icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.5"
+          stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <circle cx="9" cy="21" r="1" />
+          <circle cx="20" cy="21" r="1" />
+          <path d="M1 1h4l2.68 13.39a2 2 0 001.98 1.61h9.72a2 2 0 001.98-1.75l1.27-7.09H6" />
+        </svg>
+        <span>عربة التسوق</span>
+      </div>
+      <div class="icon-button" data-label="طلبات" tabindex="0" aria-pressed="false" role="button">
+        <!-- Clipboard list icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.5"
+          stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M9 12h.01M15 12h.01M9 16h6M9 8h6M7 20h10a2 2 0 002-2V7a2 2 0 00-2-2h-3l-1-1H8L7 5H4a2 2 0 00-2 2v11a2 2 0 002 2z" />
+        </svg>
+        <span>طلباتي</span>
+      </div>
+      <div class="icon-button" data-label="اتصل بنا" tabindex="0" aria-pressed="false" role="button">
+        <!-- Phone icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.5"
+          stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M22 16.92v3a2 2 0 01-2.18 2 19.86 19.86 0 01-8.63-3.07A19.5 19.5 0 014.24 10.75a19.86 19.86 0 01-3.07-8.63A2 2 0 013.19 0h3a2 2 0 012 1.72c.13 1.21.37 2.4.72 3.54a2 2 0 01-.45 2.11L8.09 8.91a16 16 0 006 6l1.54-1.54a2 2 0 012.11-.45c1.14.35 2.33.59 3.54.72A2 2 0 0122 16.92z" />
+        </svg>
+        <span>اتصل بنا</span>
+      </div>
+    </nav>
+  </div>
+
+<!-- باقي محتوى الصفحة كما هو -->
+<section id="product">
+    <h2 style="text-align: center;padding-top: 80px;margin-bottom: -72px;" class="section-title"> اجهزه كهربائية جديدة</h2>
+    <div style="  top: 90px;" class="slider-container">
+        <button style="  margin-top: -20px;" class="slider-nav next" aria-label="السابق">&#10094;</button>
+        <ul class="slider-list">
+            <li class="slider-item">
+                <div class="image-wrapper">
+                    <img style="margin-top: -3px;max-width: 414%;max-height: 338%;" src="img/2.png" alt="تكييفات">
+                </div>
+                <p class="item-label">تكييفات <br>جديدة </p>
+            </li>
+            <li class="slider-item">
+                <div class="image-wrapper">
+                    <img style="margin-top: 8px;max-width: 427%;max-height: 336%;" src="img/3.png" alt="مراوح">
+                </div>
+                <p class="item-label"> مراوح<br>جديدة</p>
+            </li>
+            <li class="slider-item">
+                <div class="image-wrapper">
+                    <img style="margin-top: -11px;max-width: 414%; max-height: 335%;" src="img/4.png" alt="افران">
+                </div>
+                <p class="item-label">افران<br> جديدة</p>
+            </li>
+            <li class="slider-item">
+                <div class="image-wrapper">
+                    <img style="margin-top: 29px;max-width: 414%;max-height: 340%;" src="img/5.png" alt="بوتجازات">
+                </div>
+                <p class="item-label">بوتجازات<br> جديدة</p>
+            </li>
+            <li class="slider-item">
+                <div class="image-wrapper">
+                    <img style="margin-top: 8px;max-width: 414%;max-height: 337%;" src="img/6.png" alt="ثلاجات">
+                </div>
+                <p class="item-label">ثلاجات <br> جديدة </p>
+            </li>
+            <li class="slider-item">
+                <div class="image-wrapper">
+                    <img style="margin-top: 10px;max-width: 414%;max-height: 287%;" src="img/7.png" alt="غسالات">
+                </div>
+                <p class="item-label">غسالات<br>  جديدة</p>
+            </li>
+            <li class="slider-item">
+                <div class="image-wrapper">
+                    <img style="margin-top: 10px;max-width: 414%;max-height: 279%;" src="img/9.png" alt="فريزر">
+                </div>
+                <p class="item-label">فريزر<br> جديدة </p>
+            </li>
+            <li class="slider-item">
+                <div class="image-wrapper">
+                    <img style="margin-top: -8px;max-width: 421%;max-height: 315%;" src="img/10-0.png" alt="تلفزيونات">
+                </div>
+                <p class="item-label">تلفزيونات<br>  جديدة</p>
+            </li>
+        </ul>
+        <button style="  margin-top: -20px;" class="slider-nav prev" aria-label="التالي">&#10095;</button>
+    </div>
 </section>
 
+<section class="img1">
+    <h2 style="text-align: center;  padding-top: 130px;margin-bottom: -72px;" class="section-title"> اجهزه كهربائية مستعمله</h2>
+    <div style="  top: 90px;" class="slider-container">
+        <button style=" margin-top: -20px;" class="slider-nav next" id="slider-left" aria-label="السابق">&#10094;</button>
+        <ul id="all-sliders" class="slider-list">
+            <li class="slider-item">
+                <div class="image-wrapper">
+                    <img style="margin-top: -3px;max-width: 414%;max-height: 338%;" src="img/2-2.png" alt="تكييفات">
+                </div>
+                <p class="item-label">تكييفات <br>مستعمله </p>
+            </li>
+            <li class="slider-item">
+                <div class="image-wrapper">
+                    <img style="margin-top: 8px;max-width: 427%;max-height: 336%;" src="img/3-3.png" alt="مراوح">
+                </div>
+                <p class="item-label"> مراوح<br>مستعمله</p>
+            </li>
+            <li class="slider-item">
+                <div class="image-wrapper">
+                    <img style="margin-top: -11px;max-width: 414%;max-height: 335%;" src="img/4-4.png" alt="افران">
+                </div>
+                <p class="item-label">افران<br> مستعمله</p>
+            </li>
+            <li class="slider-item">
+                <div class="image-wrapper">
+                    <img style="margin-top: 29px;max-width: 414%; max-height: 340%;" src="img/5-5.png" alt="بوتجازات">
+                </div>
+                <p class="item-label">بوتجازات<br> مستعمله</p>
+            </li>
+            <li class="slider-item">
+                <div class="image-wrapper">
+                    <img style="margin-top: 8px;max-width: 414%;max-height: 337%;" src="img/6-6.png" alt="ثلاجات">
+                </div>
+                <p class="item-label">ثلاجات <br> مستعمله </p>
+            </li>
+            <li class="slider-item">
+                <div class="image-wrapper">
+                    <img style="margin-top: 10px;max-width: 414%;max-height: 287%;" src="img/7-7.png" alt="غسالات">
+                </div>
+                <p class="item-label">غسالات<br>  مستعمله</p>
+            </li>
+            <li class="slider-item">
+                <div class="image-wrapper">
+                    <img style="margin-top: 10px;max-width: 414%; max-height: 279%;" src="img/8-8.png" alt="فريزر">
+                </div>
+                <p class="item-label">فريزر<br> مستعمله </p>
+            </li>
+            <li class="slider-item">
+                <div class="image-wrapper">
+                    <img style="margin-top: -8px;max-width: 421%;max-height: 315%;" src="img/10-10.png" alt="تلفزيونات">
+                </div>
+                <p class="item-label">تلفزيونات<br>  مستعمله</p>
+            </li>
+        </ul>
+        <button style="  margin-top: -20px;" class="slider-nav prev" id="slider-right" aria-label="التالي">&#10095;</button>
+    </div>
+</section>
 
-
-
-
-    <section class="img1">
- <h2 style="text-align: center;  padding-top: 130px;margin-bottom: -72px;" class="section-title"> اجهزه كهربائية مستعمله</h2>
-<div style="  top: 90px;" class="slider-container">
-   
-  <button style=" margin-top: -20px;" class="slider-nav next" id="slider-left" aria-label="السابق">
-    &#10094;
-  </button>
-  
-  <ul id="all-sliders" class="slider-list">
-    <li class="slider-item">
-      <div class="image-wrapper">
-        <img style="margin-top: -3px;max-width: 414%;max-height: 338%;" src="img/2-2.png" alt="تكييفات">
-      </div>
-      <p class="item-label">تكييفات <br>مستعمله </p>
-    </li>
-    <li class="slider-item">
-      <div class="image-wrapper">
-        <img style="margin-top: 8px;max-width: 427%;max-height: 336%;" src="img/3-3.png" alt="مراوح">
-      </div>
-      <p class="item-label"> مراوح<br>مستعمله</p>
-    </li>
-    <li class="slider-item">
-      <div class="image-wrapper">
-        <img style="margin-top: -11px;max-width: 414%;max-height: 335%;" src="img/4-4.png" alt="افران">
-      </div>
-      <p class="item-label">افران<br> مستعمله</p>
-    </li>
-    <li class="slider-item">
-      <div class="image-wrapper">
-        <img style="margin-top: 29px;max-width: 414%; max-height: 340%;" src="img/5-5.png" alt="بوتجازات">
-      </div>
-      <p class="item-label">بوتجازات<br> مستعمله</p>
-    </li>
-    <li class="slider-item">
-      <div class="image-wrapper">
-        <img style="margin-top: 8px;max-width: 414%;max-height: 337%;" src="img/6-6.png" alt="ثلاجات">
-      </div>
-      <p class="item-label">ثلاجات <br> مستعمله </p>
-    </li>
-    <li class="slider-item">
-      <div class="image-wrapper">
-        <img style="margin-top: 10px;max-width: 414%;max-height: 287%;" src="img/7-7.png" alt="غسالات">
-      </div>
-      <p class="item-label">غسالات<br>  مستعمله</p>
-    </li>
-    <li class="slider-item">
-      <div class="image-wrapper">
-        <img style="margin-top: 10px;max-width: 414%; max-height: 279%;" src="img/8-8.png" alt="فريزر">
-      </div>
-      <p class="item-label">فريزر<br> مستعمله </p>
-    </li>
-    <li class="slider-item">
-      <div class="image-wrapper">
-        <img style="margin-top: -8px;max-width: 421%;max-height: 315%;" src="img/10-10.png" alt="تلفزيونات">
-      </div>
-      <p class="item-label">تلفزيونات<br>  مستعمله</p>
-    </li>
-  </ul>
-  
-  <button style="  margin-top: -20px;" class="slider-nav prev" id="slider-right" aria-label="التالي">
-    &#10095;
-  </button>
+<!-- Promotional Banners -->
+<div style="margin-top: 220px;margin-bottom: 200px;" class="image-container-1">
+    <div class="image-item item-1-1">
+        <img src="img/21.png" alt="ثلاجات مستعمله بحاله ممتازه و بأفضل الاسعار">
+    </div>
+    <div class="image-item item-3-1">
+        <img src="img/22.png" alt="تكييفات مستعمله بأفضل الاسعار">
+    </div>
+    <div class="image-item item-4-1">
+        <img src="img/23.png" alt="غسالات مستعمله مضمونة و جوده عالية">
+    </div>
+    <div class="image-item item-5-1">
+        <img src="img/24.png" alt="بوتجازات مستعمله بحاله ممتازه و بسعر لقطه">
+    </div>
 </div>
+
+<!-- Best Offers Section -->
+<section s class="products">
+    <div style="  margin-top: -100px;" class="container">
+        <h2 class="section-title"> اجهزه كهربائية جديدة بأسعار مميزه</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=200&width=250" alt="تلفزيون">
+                </div>
+                <div class="product-info">
+                    <div class="product-title">تلفزيون ذكي 55 بوصة</div>
+                    <div class="product-price">2,500 جنيه</div>
+                    <div class="product-buttons">
+                        <button class="btn-outline">التفاصيل</button>
+                        <button class="btn-outline">شراء</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=200&width=250" alt="تلفزيون">
+                </div>
+                <div class="product-info">
+                    <div class="product-title">تلفزيون ذكي 43 بوصة</div>
+                    <div class="product-price">1,800 جنيه</div>
+                    <div class="product-buttons">
+                        <button class="btn-outline">التفاصيل</button>
+                        <button class="btn-outline">شراء</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=200&width=250" alt="تلفزيون">
+                </div>
+                <div class="product-info">
+                    <div class="product-title">تلفزيون LED 32 بوصة</div>
+                    <div class="product-price">1,200 جنيه</div>
+                    <div class="product-buttons">
+                        <button class="btn-outline">التفاصيل</button>
+                        <button class="btn-outline">شراء</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=200&width=250" alt="تلفزيون">
+                </div>
+                <div class="product-info">
+                    <div class="product-title">تلفزيون عادي 24 بوصة</div>
+                    <div class="product-price">800 جنيه</div>
+                    <div class="product-buttons">
+                        <button class="btn-outline">التفاصيل</button>
+                        <button class="btn-outline">شراء</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
-   
+<!-- Promotional Banners -->
+<div style="  margin-top: 100px;" class="image-container">
+    <div class="image-item item-1">
+        <img src="img/19_1.png" alt="Washing Machine">
+    </div>
+    <div class="image-item item-3">
+        <img src="img/13.png" alt="Stove">
+    </div>
+    <div class="image-item item-4">
+        <img src="img/14.png" alt="Microwave">
+    </div>
+    <div class="image-item item-5">
+        <img src="img/15.png" alt="Television">
+    </div>
+</div>
 
-   <!-- Promotional Banners -->
-    <div style="margin-top: 220px;margin-bottom: 200px;" class="image-container-1">
-        <div class="image-item item-1-1">
-            <img src="img/21.png" alt="ثلاجات مستعمله بحاله ممتازه و بأفضل الاسعار">
-        </div>
-        <div class="image-item item-3-1">
-            <img src="img/22.png" alt="تكييفات مستعمله بأفضل الاسعار">
-        </div>
-        <div class="image-item item-4-1">
-            <img src="img/23.png" alt="غسالات مستعمله مضمونة و جوده عالية">
-        </div>
-        <div class="image-item item-5-1">
-            <img src="img/24.png" alt="بوتجازات مستعمله بحاله ممتازه و بسعر لقطه">
+<!-- Used Devices Section -->
+<section class="products">
+    <div style="  margin-top: 100px;" class="container">
+        <h2 class="section-title">أجهزة كهربائية مستعملة بأسعار مميزه</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=200&width=250" alt="تلفزيون مستعمل">
+                </div>
+                <div class="product-info">
+                    <div class="product-title">تلفزيون مستعمل 42 بوصة</div>
+                    <div class="product-price">1,000 جنيه</div>
+                    <div class="product-buttons">
+                        <button class="btn-outline">التفاصيل</button>
+                        <button class="btn-outline">شراء</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=200&width=250" alt="تلفزيون مستعمل">
+                </div>
+                <div class="product-info">
+                    <div class="product-title">تلفزيون مستعمل 32 بوصة</div>
+                    <div class="product-price">700 جنيه</div>
+                    <div class="product-buttons">
+                        <button class="btn-outline">التفاصيل</button>
+                        <button class="btn-outline">شراء</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=200&width=250" alt="تلفزيون مستعمل">
+                </div>
+                <div class="product-info">
+                    <div class="product-title">تلفزيون مستعمل 28 بوصة</div>
+                    <div class="product-price">500 جنيه</div>
+                    <div class="product-buttons">
+                        <button class="btn-outline">التفاصيل</button>
+                        <button class="btn-outline">شراء</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="/placeholder.svg?height=200&width=250" alt="تلفزيون مستعمل">
+                </div>
+                <div class="product-info">
+                    <div class="product-title">تلفزيون مستعمل 24 بوصة</div>
+                    <div class="product-price">400 جنيه</div>
+                    <div class="product-buttons">
+                        <button class="btn-outline">التفاصيل</button>
+                        <button class="btn-outline">شراء</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+</section>
 
+<!-- Promotional Banners -->
+<div id="img-c3" class="image-container-1">
+    <div id="img-i1" class="image-item item-3-1">
+        <img src="img/27.png" alt="الاجهزه المنزليه المستعمله بأفضل الاسعار">
+    </div>
+    <div id="img-i2" class="image-item item-3-1">
+        <img src="img/28.png" alt="الاجهزه المنزلية الجديده بأفضل الاسعار">
+    </div>
+</div>
 
-    <!-- Best Offers Section -->
-    <section s class="products">
-        <div style="  margin-top: -100px;" class="container">
-            <h2 class="section-title"> اجهزه كهربائية جديدة بأسعار مميزه</h2>
-            <div class="products-grid">
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="/placeholder.svg?height=200&width=250" alt="تلفزيون">
-                    </div>
-                    <div class="product-info">
-                        <div class="product-title">تلفزيون ذكي 55 بوصة</div>
-                        <div class="product-price">2,500 جنيه</div>
-                        <div class="product-buttons">
-                            <button class="btn-outline">التفاصيل</button>
-                            <button class="btn-outline">شراء</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="/placeholder.svg?height=200&width=250" alt="تلفزيون">
-                    </div>
-                    <div class="product-info">
-                        <div class="product-title">تلفزيون ذكي 43 بوصة</div>
-                        <div class="product-price">1,800 جنيه</div>
-                        <div class="product-buttons">
-                            <button class="btn-outline">التفاصيل</button>
-                            <button class="btn-outline">شراء</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="/placeholder.svg?height=200&width=250" alt="تلفزيون">
-                    </div>
-                    <div class="product-info">
-                        <div class="product-title">تلفزيون LED 32 بوصة</div>
-                        <div class="product-price">1,200 جنيه</div>
-                        <div class="product-buttons">
-                            <button class="btn-outline">التفاصيل</button>
-                            <button class="btn-outline">شراء</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="/placeholder.svg?height=200&width=250" alt="تلفزيون">
-                    </div>
-                    <div class="product-info">
-                        <div class="product-title">تلفزيون عادي 24 بوصة</div>
-                        <div class="product-price">800 جنيه</div>
-                        <div class="product-buttons">
-                            <button class="btn-outline">التفاصيل</button>
-                            <button class="btn-outline">شراء</button>
-                        </div>
-                    </div>
-                </div>
+<!-- FAQ Section -->
+<section style="margin-top: -120px;margin-bottom: 91px;" class="faq">
+    <div class="container">
+        <h2 class="section-title2">الأسئلة الشائعة</h2>
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+                <span>هل المنتجات المستعملة مضمونة؟</span>
+                <span>+</span>
+            </div>
+            <div class="faq-answer">
+                نعم، جميع المنتجات المستعملة لدينا مضمونة لمدة 6 أشهر ومفحوصة بعناية قبل البيع.
             </div>
         </div>
-    </section>
-
-    <!-- Promotional Banners -->
-    <div style="  margin-top: 100px;" class="image-container">
-        <div class="image-item item-1">
-            <img src="img/19_1.png" alt="Washing Machine">
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+                <span>ما هي طرق الدفع المتاحة؟</span>
+                <span>+</span>
+            </div>
+            <div class="faq-answer">
+                نقبل الدفع نقداً عند الاستلام، التحويل البنكي، والدفع الإلكتروني عبر فيزا وماستركارد.
+            </div>
         </div>
-        <div class="image-item item-3">
-            <img src="img/13.png" alt="Stove">
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+                <span>ما هو المكان الذي يرغب فيه شركة الشحن؟</span>
+                <span>+</span>
+            </div>
+            <div class="faq-answer">
+                نوصل لجميع أنحاء الجمهورية خلال 2-3 أيام عمل، والشحن مجاني للطلبات أكثر من 1000 جنيه.
+            </div>
         </div>
-        <div class="image-item item-4">
-            <img src="img/14.png" alt="Microwave">
-        </div>
-        <div class="image-item item-5">
-            <img src="img/15.png" alt="Television">
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+                <span>هل المنتجات المستعملة مضمونة؟</span>
+                <span>+</span>
+            </div>
+            <div class="faq-answer">
+                نعم، جميع المنتجات المستعملة لدينا مضمونة لمدة 6 أشهر ومفحوصة بعناية قبل البيع.
+            </div>
         </div>
     </div>
+</section>
 
-    <!-- Used Devices Section -->
-    <section class="products">
-        <div style="  margin-top: 100px;" class="container">
-            <h2 class="section-title">أجهزة كهربائية مستعملة بأسعار مميزه</h2>
-            <div class="products-grid">
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="/placeholder.svg?height=200&width=250" alt="تلفزيون مستعمل">
-                    </div>
-                    <div class="product-info">
-                        <div class="product-title">تلفزيون مستعمل 42 بوصة</div>
-                        <div class="product-price">1,000 جنيه</div>
-                        <div class="product-buttons">
-                            <button class="btn-outline">التفاصيل</button>
-                            <button class="btn-outline">شراء</button>
-                        </div>
-                    </div>
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section qr-section">
+                <div class="qr-code">
+                    <!-- Placeholder for QR code image -->
+                    <img src="/placeholder.svg?height=100&width=100" alt="QR Code">
                 </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="/placeholder.svg?height=200&width=250" alt="تلفزيون مستعمل">
-                    </div>
-                    <div class="product-info">
-                        <div class="product-title">تلفزيون مستعمل 32 بوصة</div>
-                        <div class="product-price">700 جنيه</div>
-                        <div class="product-buttons">
-                            <button class="btn-outline">التفاصيل</button>
-                            <button class="btn-outline">شراء</button>
-                        </div>
-                    </div>
+                <h3>من كاميره موبايلك qr code دلوقتي وشغل الموقع من خلال تصوير ال qr code حمل ال</h3>
+            </div>
+            <div class="footer-section contact-form-section">
+                <h4>إرسال رسالة من هنا</h4>
+                <input type="text" placeholder="الاسم">
+                <textarea placeholder="الرسالة" rows="3"></textarea>
+                <button class="btn-primary">إرسال</button>
+            </div>
+            
+            <div class="footer-section footer-links">
+                <div>
+                    <h4>الصفحات</h4>
+                    <ul>
+                        <li><a href="#">الصفحه الرئيسيه</a></li>
+                        <li><a href="#">الاجهزه الكهربايئه المستعمل</a></li>
+                        <li><a href="#">الاجهزه الكهربائيه الجديده</a></li>
+                        <li><a href="#">طلباتي</a></li>
+                        <li><a href="#">اتصل بنا</a></li>
+                    </ul>
                 </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="/placeholder.svg?height=200&width=250" alt="تلفزيون مستعمل">
-                    </div>
-                    <div class="product-info">
-                        <div class="product-title">تلفزيون مستعمل 28 بوصة</div>
-                        <div class="product-price">500 جنيه</div>
-                        <div class="product-buttons">
-                            <button class="btn-outline">التفاصيل</button>
-                            <button class="btn-outline">شراء</button>
-                        </div>
-                    </div>
+                <div>
+                    <h4>المنتجات</h4>
+                    <ul>
+                        <li><a href="#">أجهزة كهربائية مستعملة</a></li>
+                        <li><a href="#">تكييفات </a></li>
+                        <li><a href="#">مراوح</a></li>
+                        <li><a href="#">فرن</a></li>
+                        <li><a href="#">بوتجازات</a></li>
+                        <li><a href="#">ثلاجات</a></li>
+                        <li><a href="#">غسالات</a></li>
+                        <li><a href="#">فريزر</a></li>
+                        <li><a href="#">تلفزيونات</a></li>
+                    </ul>
                 </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="/placeholder.svg?height=200&width=250" alt="تلفزيون مستعمل">
-                    </div>
-                    <div class="product-info">
-                        <div class="product-title">تلفزيون مستعمل 24 بوصة</div>
-                        <div class="product-price">400 جنيه</div>
-                        <div class="product-buttons">
-                            <button class="btn-outline">التفاصيل</button>
-                            <button class="btn-outline">شراء</button>
-                        </div>
-                    </div>
+                <div>
+                    <h4>خدمة العملاء</h4>
+                    <ul>
+                        <li><a href="#">اتصل بنا</a></li>
+                        <li><a href="#">الشحن والتوصيل</a></li>
+                        <li><a href="#">سياسة الإرجاع</a></li>
+                        <li><a href="#">الضمان</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </section>
-
-   <!-- Promotional Banners -->
-    <div id="img-c3" class="image-container-1">
-        
-        <div id="img-i1" class="image-item item-3-1">
-            <img src="img/27.png" alt="الاجهزه المنزليه المستعمله بأفضل الاسعار">
+        <div class="footer-bottom">
+            البيت ستور | جميع الحقوق محفوظة © 2025
         </div>
-
-
-         <div id="img-i2" class="image-item item-3-1">
-            <img src="img/28.png" alt="الاجهزه المنزلية الجديده بأفضل الاسعار">
-        </div>
-       
     </div>
+</footer>
 
-
-    <!-- FAQ Section -->
-    <section style="margin-top: -120px;margin-bottom: 91px;" class="faq">
-        <div class="container">
-            <h2 class="section-title2">الأسئلة الشائعة</h2>
-            <div class="faq-item">
-                <div class="faq-question" onclick="toggleFaq(this)">
-                    <span>هل المنتجات المستعملة مضمونة؟</span>
-                    <span>+</span>
-                </div>
-                <div class="faq-answer">
-                    نعم، جميع المنتجات المستعملة لدينا مضمونة لمدة 6 أشهر ومفحوصة بعناية قبل البيع.
-                </div>
-            </div>
-            <div class="faq-item">
-                <div class="faq-question" onclick="toggleFaq(this)">
-                    <span>ما هي طرق الدفع المتاحة؟</span>
-                    <span>+</span>
-                </div>
-                <div class="faq-answer">
-                    نقبل الدفع نقداً عند الاستلام، التحويل البنكي، والدفع الإلكتروني عبر فيزا وماستركارد.
-                </div>
-            </div>
-            <div class="faq-item">
-                <div class="faq-question" onclick="toggleFaq(this)">
-                    <span>ما هو المكان الذي يرغب فيه شركة الشحن؟</span>
-                    <span>+</span>
-                </div>
-                <div class="faq-answer">
-                    نوصل لجميع أنحاء الجمهورية خلال 2-3 أيام عمل، والشحن مجاني للطلبات أكثر من 1000 جنيه.
-                </div>
-            </div>
-            <div class="faq-item">
-                <div class="faq-question" onclick="toggleFaq(this)">
-                    <span>هل المنتجات المستعملة مضمونة؟</span>
-                    <span>+</span>
-                </div>
-                <div class="faq-answer">
-                    نعم، جميع المنتجات المستعملة لدينا مضمونة لمدة 6 أشهر ومفحوصة بعناية قبل البيع.
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section qr-section">
-                    <div class="qr-code">
-                        <!-- Placeholder for QR code image -->
-                        <img src="/placeholder.svg?height=100&width=100" alt="QR Code">
-                    </div>
-                    <h3>من كاميره موبايلك qr code دلوقتي وشغل الموقع من خلال تصوير ال qr code حمل ال</h3>
-                </div>
-                <div class="footer-section contact-form-section">
-                    <h4>إرسال رسالة من هنا</h4>
-                    <input type="text" placeholder="الاسم">
-                    <textarea placeholder="الرسالة" rows="3"></textarea>
-                    <button class="btn-primary">إرسال</button>
-                </div>
-                
-                <div class="footer-section footer-links">
-                    <div>
-                        <h4>الصفحات</h4>
-                        <ul>
-                            <li><a href="#">الصفحه الرئيسيه</a></li>
-                            <li><a href="#">الاجهزه الكهربايئه المستعمل</a></li>
-                            <li><a href="#">الاجهزه الكهربائيه الجديده</a></li>
-                            <li><a href="#">طلباتي</a></li>
-                            <li><a href="#">اتصل بنا</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4>المنتجات</h4>
-                        <ul>
-                            <li><a href="#">أجهزة كهربائية مستعملة</a></li>
-                            <li><a href="#">تكييفات </a></li>
-                            <li><a href="#">مراوح</a></li>
-                            <li><a href="#">فرن</a></li>
-                            <li><a href="#">بوتجازات</a></li>
-                            <li><a href="#">ثلاجات</a></li>
-                            <li><a href="#">غسالات</a></li>
-                            <li><a href="#">فريزر</a></li>
-                            <li><a href="#">تلفزيونات</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4>خدمة العملاء</h4>
-                        <ul>
-                            <li><a href="#">اتصل بنا</a></li>
-                            <li><a href="#">الشحن والتوصيل</a></li>
-                            <li><a href="#">سياسة الإرجاع</a></li>
-                            <li><a href="#">الضمان</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                البيت ستور | جميع الحقوق محفوظة © 2025
-            </div>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
