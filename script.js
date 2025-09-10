@@ -155,7 +155,7 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
 let btn = document.getElementById("btn1")
 
 window.onscroll = function(){
-    if(scrollY >= 200){
+    if(scrollY >= 70){
         btn.style.display = "block"
     }else{
         btn.style.display = "none"
