@@ -3243,10 +3243,27 @@ nav ul li a:hover {
 }
 
 
+@media screen and (max-width: 430px) {
+  .whatsapp3 {
+      right: 45px;
+  }
+
+  
+}
+
+
 
 @media screen and (max-width: 405px) {
   .whatsapp3 {
     right: 55px;
+  }
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .whatsapp3 {
+    right: 40px;
   }
 }
 
