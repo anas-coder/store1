@@ -3186,8 +3186,8 @@ nav ul li a:hover {
 /* تخلي الأيقونة أصغر شوية على الموبايل */
 @media screen and (max-width: 600px) {
   .whatsapp3 img {
-   width: 60px;
-    height: 60px;
+   width: 55px;
+    height: 55px;
   }
 
    #btn1{
@@ -3216,7 +3216,7 @@ nav ul li a:hover {
 @media screen and (max-width: 515px) {
   .whatsapp3 {
    bottom: 86px;
-    right: 55px;
+      right: 48px;
   }
 
   
@@ -3227,7 +3227,7 @@ nav ul li a:hover {
 
 @media screen and (max-width: 460px) {
   .whatsapp3 {
-      right: 40px;
+         right: 30px;
   }
 
   
@@ -3236,7 +3236,7 @@ nav ul li a:hover {
 
 @media screen and (max-width: 440px) {
   .whatsapp3 {
-      right: 50px;
+          right: 40px;
   }
 
   
@@ -3251,7 +3251,7 @@ nav ul li a:hover {
 
 @media screen and (max-width: 405px) {
   .whatsapp3 {
-    right: 55px;
+        right: 45px;
   }
 }
 
