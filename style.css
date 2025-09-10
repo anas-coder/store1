@@ -3249,26 +3249,7 @@ nav ul li a:hover {
   .whatsapp {  right: 52px; } /* آخر نقطة */
 }
 
-@media (max-width: 810px) {
-  #btn {
-     top: 870.833px;
-  }
 
-  .whatsapp {
-       top: 866.833px;
-  }
-}
-
-@media (max-width: 745px) {
-  #btn {
-     top: 870.833px;
-  }
-
-  .whatsapp {
-          right: 74px;
-  top: 865.833px;
-  }
-}
 
 @media (max-width: 690px) {
   #btn {
@@ -3280,7 +3261,6 @@ nav ul li a:hover {
   .whatsapp {
        right: 53px;
   bottom: 20px;
-  top: 862.833px;
   }
 }
 
@@ -3323,7 +3303,6 @@ nav ul li a:hover {
 
 @media (max-width: 490px) {
    #btn {
-                top: 874.833px;
                     left: 10px;
                     width: 45px;
   height: 45px;
@@ -3334,7 +3313,6 @@ nav ul li a:hover {
   margin-right: -5px;
   }
   .whatsapp {
-              top: 870.833px;
                   right: 40px;
   }
 
@@ -3345,7 +3323,6 @@ nav ul li a:hover {
 
 @media (max-width: 480px) {
    #btn {
-                 top: 870.833px;
                    left: 13px;
     width: 42px;
     height: 42px;
@@ -3356,7 +3333,6 @@ nav ul li a:hover {
     margin-right: -5px;
   }
   .whatsapp {
-               top: 867.833px;
                     right: 45px;
   }
 
@@ -3389,25 +3365,23 @@ nav ul li a:hover {
 @media (max-width: 369px) {
    
   .whatsapp {
-               top: 866.833px;
-                   right: 41px;
+            top: 774.8px;
+    right: 36px;
   }
 
 #btn {
                left: 1px;
-                    top: 869.833px;
   }
 }
 
 @media (max-width: 362px) {
    
   .whatsapp {
-              top: 875.833px;
                   right: 45px;
+                      top: 784.8px;
   }
 
 #btn {
-                top: 878.833px;
                   left: 7px;
   }
 }
@@ -3418,13 +3392,22 @@ nav ul li a:hover {
   }
 }
 
-@media (max-width: 780px) {
-  #btn {
-            top: 800px;
-  }
 
+@media (max-width: 350px) {
+   
   .whatsapp {
-         top: 800px;
+               right: 51px;
+    top: 804.8px;
+  }
+}
+
+
+
+@media (max-width: 325px) {
+   
+  .whatsapp {
+           right: 48px;
+    top: 821.8px;
   }
 }
 
@@ -3551,9 +3534,12 @@ nav ul li a:hover {
   }
 
   .whatsapp {
-          bottom: 85px;
+            top: 742.133px;
   }
     }
+
+
+
 
 
 
@@ -3579,4 +3565,117 @@ nav ul li a:hover {
 
   }
 
+    }
+
+
+
+    @media screen and (max-width: 470px) {
+
+  .whatsapp {
+             top: 754.133px;
+  }
+    }
+
+
+
+    @media screen and (max-width: 460px) {
+
+  .whatsapp {
+                top: 725px;
+  }
+    }
+
+
+
+    @media screen and (max-width: 450px) {
+
+  .whatsapp {
+                top: 741px;
+  }
+    }
+
+
+
+
+
+    @media screen and (max-width: 440px) {
+
+  .whatsapp {
+               top: 745px;
+  }
+    }
+
+
+
+
+    @media screen and (max-width: 430px) {
+
+  .whatsapp {
+               top: 745px;
+  }
+    }
+
+
+
+    @media screen and (max-width: 420px) {
+
+  .whatsapp {
+                 top: 752px;
+  }
+    }
+
+
+
+
+    @media screen and (max-width: 410px) {
+
+  .whatsapp {
+                   top: 765px;
+  }
+    }
+
+
+    @media screen and (max-width: 400px) {
+
+  .whatsapp {
+                top: 756px;
+                   right: 33px;
+  }
+    }
+
+
+
+    @media screen and (max-width: 410px) {
+
+  .whatsapp {
+                      top: 770px;
+                          right: 40px;
+  }
+    }
+
+
+    @media screen and (max-width: 382px) {
+
+  .whatsapp {
+                   top: 781px;
+    right: 44px;
+  }
+    }
+
+
+    @media screen and (max-width: 375px) {
+
+  .whatsapp {
+                 top: 793px;
+    right: 47px;
+  }
+    }
+
+
+    @media screen and (max-width: 370px) {
+
+  #btn {
+             top: 795.333px;
+  left: 11px;
+  }
     }
