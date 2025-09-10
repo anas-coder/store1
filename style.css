@@ -3152,8 +3152,9 @@ nav ul li a:hover {
 
     
 
-   #btn {
-               left: 25px;
+   #btn1 {
+                 left: 9px;
+                   top: 731.067px;
 
   }
 
@@ -3162,6 +3163,16 @@ nav ul li a:hover {
              margin-top: 8px;
      margin-right: -13px;
        width: 90%;
+  }
+
+  .whatsapp1 {
+           right: 50px;
+             top: 722.067px;
+  }
+
+
+  .bottom-bar {
+          width: 100%;
   }
 
     }
