@@ -152,7 +152,7 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
     });
 });
 
-let btn = document.getElementById("btn")
+let btn = document.getElementById("btn1")
 
 window.onscroll = function(){
     if(scrollY >= 200){
