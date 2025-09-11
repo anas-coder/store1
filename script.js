@@ -268,3 +268,20 @@ document.addEventListener("DOMContentLoaded", function() {
         }
       });
     });
+
+
+    document.querySelectorAll(".dropdown > a").forEach(link => {
+  link.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    const parent = this.parentElement;
+
+    // لو فيه مفتوح غيره → اقفله
+    document.querySelectorAll(".dropdown").forEach(drop => {
+      if (drop !== parent) drop.classList.remove("open");
+    });
+
+    // اعمل toggle للكلاس
+    parent.classList.toggle("open");
+  });
+});
