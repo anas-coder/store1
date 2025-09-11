@@ -3269,3 +3269,13 @@ nav ul li a:hover {
 .dropdown.open .dropdown-menu {
   display: block;
 }
+
+
+
+
+@media screen and (max-width: 515px) {
+  .whatsapp3 {
+    bottom: 86px;
+    right: 36px;
+  }
+}
